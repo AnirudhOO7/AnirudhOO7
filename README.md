@@ -39,7 +39,7 @@ Retrieves dependency-aware code context from GitHub pull requests and generates 
 - Agentic workflow with structured outputs
 - Evaluation-driven development using measurable benchmarks
 
-🔗 **Repository:** <!-- replace with repo URL, e.g. https://github.com/AnirudhOO7/pr-review-agent -->
+🔗 **Repository:** https://github.com/AnirudhOO7/pr_review_agent
 
 ---
 
