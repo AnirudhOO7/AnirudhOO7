@@ -4,7 +4,7 @@
 
 My foundation is backend engineering designing scalable microservices, event-driven systems, and reliable cloud services. I apply the same engineering discipline to LLM-powered applications, focusing on retrieval grounding, measurable evaluation, observability, and cost-aware deployments. I'm interested in building AI systems that are reliable enough to run in production, not just demos.
 
-🎓 MS in Computer Science, Indiana University Bloomington
+🎓 MS in Computer Science, Indiana University Bloomington (GPA 3.67) · BTech in Artificial Intelligence, SRM
 🔬 Published in IEEE and Springer on deep learning and predictive modeling
 📍 Bloomington, IN · Open to Software Engineer / Backend Engineer / AI Engineer roles
 
@@ -32,7 +32,7 @@ My foundation is backend engineering designing scalable microservices, event-dri
 *AI-powered GitHub pull request reviewer*
 **Tech:** Python · Claude API · GitHub API · Pydantic
 
-Retrieves dependency-aware code context from GitHub pull requests and generates schema-validated review findings as inline GitHub comments. Built a custom evaluation framework using planted-bug datasets with automated scoring, achieving 100% recall, 73%+ precision, and 0.84 F1 across security, reliability, and code-quality defects.
+Retrieves dependency-aware code context from GitHub pull requests and generates schema-validated review findings as inline GitHub comments. Built a custom evaluation framework with a planted-bug dataset and automated scoring; on this benchmark the agent reached 100% recall, ~73% precision, and a 0.84 F1 score across security, reliability, and code-quality defects.
 
 **Highlights**
 - Retrieval-grounded reasoning over large codebases
