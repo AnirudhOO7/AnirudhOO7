@@ -47,14 +47,14 @@ Retrieves dependency-aware code context from GitHub pull requests and generates 
 *Event-driven distributed booking system*
 **Tech:** Spring Boot · RabbitMQ · PostgreSQL · Kubernetes
 
-Designed a three-service event-driven architecture using RabbitMQ for asynchronous messaging and PostgreSQL for transactional consistency. Implemented conflict detection to eliminate double bookings and deployed the application on Kubernetes with health probes and role-based access controls.
+Designed three-service event-driven architecture using RabbitMQ for asynchronous messaging and PostgreSQL for transactional consistency. Implemented conflict detection to eliminate double bookings and deployed the application on Kubernetes with health probes and role-based access controls.
 
 **Highlights**
 - Event-driven microservices
 - Distributed transactions and data consistency
 - Kubernetes deployment and container orchestration
 
-🔗 **Repository:** <!-- replace with repo URL -->
+🔗 **Repository:** https://github.com/RoomReservationSystem/reservation-service
 
 ---
 
