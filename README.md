@@ -100,9 +100,9 @@ Developed a distributed news ingestion system processing over 500 headlines dail
 ## 📚 Publications
 
 - **A Survey on Predictive Modelling for Diverse Climate Conditions and Heavy Rainfall**
-  *Springer – Lecture Notes in Networks and Systems (LNNS)*, 2024
+  *Springer – Lecture Notes in Networks and Systems (LNNS)*, 2024 [https://link.springer.com/chapter/10.1007/978-981-97-4152-6_18]
 - **Hyperspectral Image Classification via Modified Stable Prototypical Networks**
-  *IEEE International Conference*, 2024 — Proposed a few-shot learning framework achieving a 23% improvement with limited labeled data.
+  *IEEE International Conference*, 2024 — Proposed a few-shot learning framework achieving a 23% improvement with limited labeled data. [https://doi.org/10.1109/ICSCSS60660.2024.10625598]
 
 ---
 
