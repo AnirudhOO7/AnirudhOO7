@@ -47,12 +47,12 @@ Retrieves dependency-aware code context from GitHub pull requests and generates 
 *Event-driven distributed booking system*
 **Tech:** Spring Boot · RabbitMQ · PostgreSQL · Kubernetes
 
-Designed three-service event-driven architecture using RabbitMQ for asynchronous messaging and PostgreSQL for transactional consistency. Implemented conflict detection to eliminate double bookings and deployed the application on Kubernetes with health probes and role-based access controls.
+Built the Reservation Service within a microservice-based booking platform (user, room, reservation, and edge/gateway services). Validates bookings against the user and room services over HTTP, prevents double-bookings via an overlap query, enforces role-based booking policy (time limits, faculty-only rooms, booking windows), drives a PENDING → APPROVED/REJECTED/CANCELLED approval lifecycle across 11 REST endpoints, and publishes reservation events to RabbitMQ for downstream notification. Deployed on Kubernetes with PostgreSQL.
 
 **Highlights**
-- Event-driven microservices
-- Distributed transactions and data consistency
-- Kubernetes deployment and container orchestration
+- Event-driven microservice integrating with other services over a message bus
+- Conflict detection and role-based booking rules
+- Approval lifecycle, RabbitMQ events, and Kubernetes deployment
 
 🔗 **Repository:** https://github.com/RoomReservationSystem/reservation-service
 
@@ -62,14 +62,14 @@ Designed three-service event-driven architecture using RabbitMQ for asynchronous
 *Reflection-based Retrieval-Augmented Generation system*
 **Tech:** FastAPI · LangChain · Qdrant · Hugging Face · Claude
 
-Built a RAG system that evaluates retrieved context, identifies missing information, performs targeted re-retrieval, and generates responses only after sufficient grounding. Designed with an abstract vector-store interface, comprehensive unit tests, and an evaluation harness for measuring retrieval quality.
+Built a RAG system that evaluates retrieved context, identifies missing information, performs targeted re-retrieval, and generates responses only after sufficient grounding. Designed with an abstract vector-store interface, source-cited answers, and unit tests across the ingestion and retrieval pipeline.
 
 **Highlights**
 - Reflection-based retrieval loop
 - Modular RAG architecture
-- Production-oriented evaluation and testing
+- Cited answers and tested ingestion/retrieval pipeline
 
-🔗 **Repository:** <!-- replace with repo URL -->
+🔗 **Repository:** https://github.com/AnirudhOO7/Personal_knowledge_assistant
 
 ---
 
@@ -84,7 +84,7 @@ Developed a distributed news ingestion system processing over 500 headlines dail
 - Cloud-native deployment on Google Cloud
 - Secure REST API design
 
-🔗 **Repository:** <!-- replace with repo URL -->
+🔗 **Repository:** 
 
 ---
 
